@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <hr>
+    <p>Tente visitar esse site e diversos dispositivos.</p>
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/img.png">
+        <source media="(max-width: 600px)" srcset="imagens/imgmgrand.png">
+        <img src="imagens/imgmedia.png" alt="imagem">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <audio src="media/guanacast-33.mp3" controls></audio>
+
+    <h1>Inseirndo video com HTML5</h1>
+    <video controls width="560" poster="imagens/img.png">
+        <source src="media/meuvideo,mp4.mp4" type="video/mp4">
+        <source src="media/meuvideo.webm.webm" type="video/mp3">
+    </video>
+    <h1>Inserindo video do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/umx-7mFL3Nc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

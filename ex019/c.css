@@ -1,0 +1,29 @@
+@charset "TUF-8";
+
+body{
+    background-color: rgb(170, 212, 247);
+}
+
+#principal{
+    text-align: center;
+}
+
+h1{
+    color:rgb(7, 155, 240);
+}
+
+h2{
+    color: rgb(21, 109, 180);
+}
+
+.baisco{
+    color: aquamarine;
+}
+
+.intermediario{
+    color: aqua;
+}
+
+.avancado{
+    color: rgb(228, 41, 41);
+}
